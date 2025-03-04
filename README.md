@@ -33,6 +33,8 @@ https://www.sunuer.com/Cases/CasesView?nid=5
 #### 联系方式
 sunuer@sunuer.com
 
+#### 免费商用
+任何人都可以免费使用
 
 #### 感谢
 感谢以下组件的支持：
