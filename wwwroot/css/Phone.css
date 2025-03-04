@@ -1,0 +1,171 @@
+.sunLog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #358CEB;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    z-index: 999;
+}
+.log{
+   
+}
+.logoImg {
+    width: 100px;
+    display:inline-block;
+    vertical-align:middle;
+}
+.accTxt {
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.otherSearch i{
+    font-size:18px;
+    color:#fff;
+}
+
+.bottomTab {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top: 1px solid #d7d0d0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    z-index: 999;
+}
+.bottomTab .tabItem{
+    text-align:center;
+    width:33%;
+    font-size:14px;
+    line-height:26px;
+}
+    .bottomTab .tabItem i {
+        font-size: 28px;
+    }
+    .bottomTab .tabItemActive {
+        color: #358CEB;
+        font-weight: bold;
+    }
+.tabItemActive a {
+    color: #358CEB;
+}
+.pageContainer {
+    margin: 40px 0 100px 0;
+}
+.birthdayItem{
+    display:flex;
+    justify-content:space-between;
+    line-height:30px;
+    background:#fff;
+    padding:10px 20px;
+    border-radius:5px;
+    margin-bottom:5px;
+}
+.btns{
+    height:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:column;
+}
+.btns a {
+    color: #358CEB;
+}
+
+.layui-form-label {
+    float: none;
+    text-align: left;
+    padding:9px 15px 9px 0px;
+}
+
+.layui-input-block {
+    margin-left: 0px;
+}
+#loading{
+    font-size:14px;
+    color:gray;
+}
+.info{
+    width:80%;
+}
+.info div{
+    width:100%;
+}
+.info > div > div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.btnsList .layui-btn {
+    width: 50%;
+}
+.layui-form-item .btnsOne, .btnsList {
+    padding: 0 !important;
+}
+.btnsOne .layui-btn {
+    width: 100%;
+}
+/*ÎÒµÄ*/
+.personInfo{
+    background:#fff;
+    padding:30px 40px;
+    border-radius:10px;
+
+}
+.personInfo{
+    display:flex;
+
+}
+.leftLogo {
+    background: #358CEB;
+ 
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+}
+.rightInfo{
+    margin-left:20px;
+    display:flex;
+    justify-content:space-between;
+    flex-direction:column;
+    width:80%;
+}
+.nickName{
+    font-size:18px;
+    font-weight:800;
+}
+.userInfo{
+    display:flex;
+    justify-content:space-between;
+    width:100%;
+    font-size:14px
+}
+.lista{
+    margin-top:20px;
+}
+.operateItema {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 20px 15px;
+    margin-bottom:10px;
+    border-radius:5px;
+}
+.leftTitle >i{
+    font-size:20px;
+    color:#358CEB;
+}
+.operateItemb>i{
+    color:#358CEB;
+}
