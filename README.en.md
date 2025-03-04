@@ -1,36 +1,36 @@
 # SunuerFinance
 
-#### Description
-长期使用 Excel 记账，查找账单越来越困难？Sunuer Finance 记账系统应运而生！Sunuer Finance 适用于 日常记账、工资记账、交税记账、工程记账、项目记账 等，既能满足个人使用，也适用于企业管理。
+#### Introduction
+Finding it increasingly difficult to locate bills when using Excel for bookkeeping? Sunuer Finance is here to help! Sunuer Finance is suitable for daily bookkeeping, salary bookkeeping, tax bookkeeping, engineering bookkeeping, and project bookkeeping. It meets both personal and business financial management needs.
 
-#### Software Architecture
-Software architecture description
+#### Key Features
+Bill Management: Easily record income, expenses, and contracts with categorized management.
 
-#### Installation
+Multi-Account Support: Manage multiple accounts and track cash flow clearly.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+Data Security: Supports local storage with an independent database to ensure privacy.
 
-#### Instructions
+Smart Search: Powerful search and filtering capabilities for quick bill retrieval.
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+Statistical Analysis: Automatically generates financial reports to assist in financial decision-making.
 
-#### Contribution
-
-1.  Fork the repository
-2.  Create Feat_xxx branch
-3.  Commit your code
-4.  Create Pull Request
+Cross-Platform Deployment: Supports Windows and Linux, catering to both personal and business users.
 
 
-#### Gitee Feature
+#### Installation & Usage
+1.Install MSSQL 2019 or later, create a database, and restore data using the files in the Data folder.
 
-1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.gitee.com](https://blog.gitee.com)
-3.  Explore open source project [https://gitee.com/explore](https://gitee.com/explore)
-4.  The most valuable open source project [GVP](https://gitee.com/gvp)
-5.  The manual of Gitee [https://gitee.com/help](https://gitee.com/help)
-6.  The most popular members  [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+2.Configure the connection settings in the appsettings.json file. Reference: Sunuer Manage Documentation. https://www.sunuer.com/SunuerManage/?nid=18&Language=zh-cn
+
+3.Run SunuerFinance.exe, then open a browser and enter http://localhost:5000. Default login:，Username：niqiu Password：123456
+
+4.To configure it as a web version, refer to:https://www.sunuer.com/SunuerManage/?nid=18&Language=zh-cn
+
+
+#### Preview
+https://www.sunuer.com/Cases/CasesView?nid=5
+
+#### Contact
+sunuer@sunuer.com
+
+
