@@ -33,4 +33,15 @@ https://www.sunuer.com/Cases/CasesView?nid=5
 #### Contact
 sunuer@sunuer.com
 
+#### Thanks
+Thanks to the support of the following components：
+- NET Core（Based on MIT License）
+- ASP.NET Core（Based on MIT License）
+- NPOI（Based on Apache License 2.0 ）
+- LayUI (Based on MIT)
+- layuiadmin (Based on LPPL)
+- Sortable(Based on MIT)
+--jQuery(Based on MIT)
+--JSEncrypt(Based on MIT)
+...
 
