@@ -33,6 +33,10 @@ https://www.sunuer.com/Cases/CasesView?nid=5
 #### Contact
 sunuer@sunuer.com
 
+
+#### Free for Commercial Use
+Sunuer Easy is free for anyone to use, including commercial applications.
+
 #### Thanks
 Thanks to the support of the following components：
 - NET Core（Based on MIT License）
