@@ -3,35 +3,46 @@
 #### 介绍
 长期使用 Excel 记账，查找账单越来越困难？Sunuer Finance 记账系统应运而生！Sunuer Finance 适用于 日常记账、工资记账、交税记账、工程记账、项目记账 等，既能满足个人使用，也适用于企业管理。
 
-#### 软件架构
-软件架构说明
+#### 主要功能
+账单管理：轻松记录收入、支出、合同，支持分类管理。
+
+多账户支持：可管理多个账户，清晰查看资金流向。
+
+数据安全：支持本地存储，独立数据库，确保隐私不外泄。
+
+智能查询：强大的搜索和筛选功能，快速定位账单。
+
+统计分析：自动生成财务报表，帮助优化财务决策。
+
+跨平台部署：支持 Windows、Linux，适用于个人与企业用户。
 
 
-#### 安装教程
+#### 安装使用
+1.安装MSSQL2019以上版本，创建数据库，把Data文件夹中的数据文件进行运行还原数据
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+2.配置appsettings.json文件中的配置信息，参考：https://www.sunuer.com/SunuerManage/?nid=18&Language=zh-cn
 
-#### 使用说明
+3.点击SunuerFinance.exe,再在浏览器中输入http://localhost:5000运行，默认账号：niqiu 密码：123456
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+4.可配置成网页版参考：https://www.sunuer.com/SunuerManage/?nid=18&Language=zh-cn
 
 
-#### 特技
+#### 预览说明
+https://www.sunuer.com/Cases/CasesView?nid=5
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+#### 联系方式
+sunuer@sunuer.com
+
+
+#### 感谢
+感谢以下组件的支持：
+- NET Core
+- ASP.NET Core
+- NPOI
+- LayUI
+- layuiadmin
+- Sortable
+- jQuery
+- JSEncrypt
+...
+
